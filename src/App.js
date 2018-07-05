@@ -15,31 +15,24 @@ class App extends Component {
     console.log('in handle submit');
     axios.get(`https://api.github.com/search/repositories?q=${this.state.searchTerm}`)
       .then(res => {
-        // Transform the raw data by extracting the nested posts
-        // const posts = res.data.data.children.map(obj => obj.data);
-
-        // Update state to trigger a re-render.
-        // Clear any errors, and turn off the loading indiciator.
-        // this.setState({
-        //   posts,
-        //   loading: false,
-        //   error: null
-        // });
+        console.log('res: ', res);
+        
       })
       .catch(err => {
-        // Something went wrong. Save the error in state and re-render.
-        // this.setState({
-        //   loading: false,
-        //   error: err
-        // });
+        console.log('err: ', err);
+       
       });
+  }
+  onSearchChange = (e) => {
+    const searchTerm = e.target.value;
+    this.setState(() => ({searchTerm}));
   }
   render() {
     return (
       <div className="App">
       {/* Add (e) for preventDefault  on form submit*/}
       <form onSubmit={((e) => this.handleSubmit(e) )}>  
-        <input type="text" placeholder="Search a repo..." value={this.props.searchTerm}/>
+        <input type="text" placeholder="Search a repo..." onChange={this.onSearchChange} value={this.state.searchTerm}/>
         <button>Search</button>
       </form>
       <Results results={this.props.results}/>
