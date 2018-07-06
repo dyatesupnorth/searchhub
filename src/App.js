@@ -13,7 +13,8 @@ class App extends Component {
       loading: false,
       error: null,
       searchTerm: '',
-      selectedItem: {}
+      selectedItem: {},
+      readme: {}
   }
   handleSubmit = (e) =>{
     e.preventDefault();
@@ -47,7 +48,7 @@ class App extends Component {
     console.log('repo: ', repo);
     axios.get(`https://api.github.com/repos/${repo.full_name}/readme`)
       .then(res => {
-        // console.log('res: ', res);
+        console.log('res: ', res);
         
       })
       .catch(err => {
@@ -57,9 +58,16 @@ class App extends Component {
         });
       });
   }
+  
   selectItem = (selectedItem) => {
+   
     this.setState({selectedItem})
-    
+
+    /* Tightly coupled here, any time a Repo gets called, it'll fire off a call for the readme. 
+     This is ok at the minute because the app is really small but might want to sort out the
+     way we call the readme in the future.
+     */
+    this.getReadme(selectedItem)
   }
   onSearchChange = (e) => {
     const searchTerm = e.target.value;
@@ -69,14 +77,14 @@ class App extends Component {
     return (
       <div className="App">
       {/* Add (e) for preventDefault  on form submit*/}
-      {this.state.error !== null && <p>{this.state.error.response.data.message}</p>}
+      {!isEmpty(this.state.error) && <p>{this.state.error.response.data.message}</p>}
       <form onSubmit={(e) => this.handleSubmit(e) }>  
         <input type="text" placeholder="Search a repo..." onChange={this.onSearchChange} value={this.state.searchTerm}/>
         <button>Search</button>
       </form>
       <Results results={this.state.result} selectItem={this.selectItem}/>
       {!isEmpty(this.state.selectedItem) && <RepositoryDetail item={this.state.selectedItem}  />}
-      {!isEmpty(this.state.selectedItem) && <ReadMe readme={this.getReadme(this.state.selectedItem)} />}
+      {!isEmpty(this.state.readme) && <ReadMe readme={this.state.readme} />}
       </div>
     );
   }

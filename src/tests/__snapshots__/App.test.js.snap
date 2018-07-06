@@ -18,6 +18,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
+        false,
         <form
           onSubmit={[Function]}
 >
@@ -39,13 +40,22 @@ ShallowWrapper {
           }
           selectItem={[Function]}
 />,
-        false,
-        false,
+        <RepositoryDetail
+          item={
+                    Object {
+                              "readme": Object {},
+                            }
+          }
+/>,
+        <ReadMe
+          readme={[Function]}
+/>,
       ],
       "className": "App",
     },
     "ref": null,
     "rendered": Array [
+      false,
       Object {
         "instance": null,
         "key": undefined,
@@ -108,8 +118,30 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
-      false,
-      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "item": Object {
+            "readme": Object {},
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "readme": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
     ],
     "type": "div",
   },
@@ -120,6 +152,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
+          false,
           <form
             onSubmit={[Function]}
 >
@@ -141,13 +174,22 @@ ShallowWrapper {
             }
             selectItem={[Function]}
 />,
-          false,
-          false,
+          <RepositoryDetail
+            item={
+                        Object {
+                                    "readme": Object {},
+                                  }
+            }
+/>,
+          <ReadMe
+            readme={[Function]}
+/>,
         ],
         "className": "App",
       },
       "ref": null,
       "rendered": Array [
+        false,
         Object {
           "instance": null,
           "key": undefined,
@@ -210,8 +252,30 @@ ShallowWrapper {
           "rendered": null,
           "type": [Function],
         },
-        false,
-        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "item": Object {
+              "readme": Object {},
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "readme": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
       ],
       "type": "div",
     },
