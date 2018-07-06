@@ -1,5 +1,6 @@
 import React from 'react'
 import {isEmpty, decodeBase64, parseMarkdown} from '../helpers'
+import Parser from 'html-react-parser';
 
 
 const ReadMe = props => ( 
@@ -8,7 +9,7 @@ const ReadMe = props => (
             isEmpty(props.readme) ? ( <p>No Readme for selected repository</p>
             ) : (
                 <div>
-                    {parseMarkdown(decodeBase64(props.readme.content))}
+                     {Parser(parseMarkdown(decodeBase64(props.readme.content)))}
                 </div>
             )
         }
