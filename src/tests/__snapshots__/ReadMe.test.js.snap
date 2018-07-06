@@ -258,7 +258,9 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <div>
+      "children": <div
+        className="p-4"
+>
         <p>
                 <img
                         alt="freeCodeCamp Social Banner"
@@ -1313,6 +1315,7 @@ ShallowWrapper {
             </li>
 </ul>,
         ],
+        "className": "p-4",
       },
       "ref": null,
       "rendered": Array [
@@ -3215,7 +3218,9 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <div>
+        "children": <div
+          className="p-4"
+>
           <p>
                     <img
                               alt="freeCodeCamp Social Banner"
@@ -4270,6 +4275,7 @@ ShallowWrapper {
               </li>
 </ul>,
           ],
+          "className": "p-4",
         },
         "ref": null,
         "rendered": Array [

@@ -17,10 +17,12 @@ class App extends Component {
       readme: {}
   }
   handleSubmit = (e) =>{
+
     e.preventDefault();
     this.setState({
       loading: true
     });
+
     axios.get(`https://api.github.com/search/repositories?q=${this.state.searchTerm}`)
       .then(res => {
          // Transform the raw data by extracting the nested items
@@ -74,19 +76,34 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="bg-grey-darker m-6 p-6 rounded shadow-lg">
-      {/* Add (e) for preventDefault  on form submit*/}
-      {!isEmpty(this.state.error) && <p>{this.state.error.response.data.message}</p>}
-      <form onSubmit={(e) => this.handleSubmit(e) }>  
-        <input type="text" placeholder="Search a repo..." onChange={this.onSearchChange} value={this.state.searchTerm}/>
-        <button>Search</button>
-      </form>
-      <Results results={this.state.result} selectItem={this.selectItem}/>
-      {!isEmpty(this.state.selectedItem) && <RepositoryDetail item={this.state.selectedItem}  />}
-      {!isEmpty(this.state.readme) && <ReadMe readme={this.state.readme} />}
+      <div className="container mx-auto">
+        {!isEmpty(this.state.error) && <p>{this.state.error.response.data.message}</p>}
+        <form onSubmit={(e) => this.handleSubmit(e) } className="w-full mx-auto max-w-md">
+          <div className="flex justify-center items-center border-b border-b-2 border-teal py-2">
+            <input className="appearance-none bg-transparent border-none w-full text-grey-darker mr-3 py-1 px-2 leading-tight"
+            type="text" 
+            placeholder="Search for a Github repo..." 
+            onChange={this.onSearchChange} 
+            value={this.state.searchTerm}
+            />
+            <button className="flex-no-shrink bg-teal hover:bg-teal-dark border-teal hover:border-teal-dark text-sm border-4 text-white py-1 px-2 rounded">Search</button>
+            
+          </div>
+        </form>
+        <div className="flex mb-4">
+          <div className="w-1/3 h-12">
+          {!isEmpty(this.state.result.items) &&  <Results results={this.state.result} selectedItem={this.state.selectedItem} selectItem={this.selectItem}/>}
+
+          </div>
+          {!isEmpty(this.state.selectedItem) &&  <div class="w-2/3 rounded bg-grey-lightest my-4">
+            <RepositoryDetail item={this.state.selectedItem}  />
+            {!isEmpty(this.state.readme) && <ReadMe readme={this.state.readme} />}
+          </div>
+          }
+        </div>
       </div>
     );
   }
 }
 
-export default App;
+export default App

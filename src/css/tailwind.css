@@ -633,6 +633,15 @@ table {
   }
 }
 
+body {
+  font-family: Roboto, sans-serif;
+}
+
+p {
+  margin-bottom: .5rem;
+}
+@tailwind postflight;
+
 .list-reset {
   list-style: none;
   padding: 0;
@@ -3013,7 +3022,7 @@ table {
 }
 
 .font-sans {
-  font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .font-serif {
@@ -8585,7 +8594,7 @@ table {
   }
 
   .sm\:font-sans {
-    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Roboto, sans-serif;
   }
 
   .sm\:font-serif {
@@ -14142,7 +14151,7 @@ table {
   }
 
   .md\:font-sans {
-    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Roboto, sans-serif;
   }
 
   .md\:font-serif {
@@ -19699,7 +19708,7 @@ table {
   }
 
   .lg\:font-sans {
-    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Roboto, sans-serif;
   }
 
   .lg\:font-serif {
@@ -25256,7 +25265,7 @@ table {
   }
 
   .xl\:font-sans {
-    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: Roboto, sans-serif;
   }
 
   .xl\:font-serif {

@@ -5,10 +5,8 @@ const RepositoryDetail = props => (
        {
             isEmpty(props.item) ? ( <p>No Repository Selected</p>
             ) : (
-                <div>
+                <div className="p-4">
                     <h2><a target="_blank" href={props.item.url}>{props.item.full_name}</a></h2>
-                    <p>Open Issues: {props.item.open_issues_count}</p>
-                    <p>Number of forks: {props.item.forks_count}</p>
                 </div>
             )
         }

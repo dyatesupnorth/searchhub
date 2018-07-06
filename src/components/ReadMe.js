@@ -8,7 +8,7 @@ const ReadMe = props => (
        {
             isEmpty(props.readme) ? ( <p>No Readme for selected repository</p>
             ) : (
-                <div>
+                <div className="p-4">
                      {Parser(parseMarkdown(decodeBase64(props.readme.content)))}
                 </div>
             )

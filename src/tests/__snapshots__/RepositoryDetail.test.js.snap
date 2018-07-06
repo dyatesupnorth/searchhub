@@ -120,7 +120,9 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <div>
+      "children": <div
+        className="p-4"
+>
         <h2>
                 <a
                         href="https://api.github.com/repos/freeCodeCamp/freeCodeCamp"
@@ -129,14 +131,6 @@ ShallowWrapper {
                         freeCodeCamp/freeCodeCamp
                 </a>
         </h2>
-        <p>
-                Open Issues: 
-                262
-        </p>
-        <p>
-                Number of forks: 
-                14052
-        </p>
 </div>,
     },
     "ref": null,
@@ -145,8 +139,75 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": Array [
+        "children": <h2>
+          <a
+                    href="https://api.github.com/repos/freeCodeCamp/freeCodeCamp"
+                    target="_blank"
+          >
+                    freeCodeCamp/freeCodeCamp
+          </a>
+</h2>,
+        "className": "p-4",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <a
+            href="https://api.github.com/repos/freeCodeCamp/freeCodeCamp"
+            target="_blank"
+>
+            freeCodeCamp/freeCodeCamp
+</a>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "freeCodeCamp/freeCodeCamp",
+            "href": "https://api.github.com/repos/freeCodeCamp/freeCodeCamp",
+            "target": "_blank",
+          },
+          "ref": null,
+          "rendered": "freeCodeCamp/freeCodeCamp",
+          "type": "a",
+        },
+        "type": "h2",
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="p-4"
+>
           <h2>
+                    <a
+                              href="https://api.github.com/repos/freeCodeCamp/freeCodeCamp"
+                              target="_blank"
+                    >
+                              freeCodeCamp/freeCodeCamp
+                    </a>
+          </h2>
+</div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h2>
             <a
                         href="https://api.github.com/repos/freeCodeCamp/freeCodeCamp"
                         target="_blank"
@@ -154,19 +215,10 @@ ShallowWrapper {
                         freeCodeCamp/freeCodeCamp
             </a>
 </h2>,
-          <p>
-            Open Issues: 
-            262
-</p>,
-          <p>
-            Number of forks: 
-            14052
-</p>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
+          "className": "p-4",
+        },
+        "ref": null,
+        "rendered": Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
@@ -194,160 +246,6 @@ ShallowWrapper {
           },
           "type": "h2",
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "Open Issues: ",
-              262,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            "Open Issues: ",
-            262,
-          ],
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "Number of forks: ",
-              14052,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            "Number of forks: ",
-            14052,
-          ],
-          "type": "p",
-        },
-      ],
-      "type": "div",
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <div>
-          <h2>
-                    <a
-                              href="https://api.github.com/repos/freeCodeCamp/freeCodeCamp"
-                              target="_blank"
-                    >
-                              freeCodeCamp/freeCodeCamp
-                    </a>
-          </h2>
-          <p>
-                    Open Issues: 
-                    262
-          </p>
-          <p>
-                    Number of forks: 
-                    14052
-          </p>
-</div>,
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <h2>
-              <a
-                            href="https://api.github.com/repos/freeCodeCamp/freeCodeCamp"
-                            target="_blank"
-              >
-                            freeCodeCamp/freeCodeCamp
-              </a>
-</h2>,
-            <p>
-              Open Issues: 
-              262
-</p>,
-            <p>
-              Number of forks: 
-              14052
-</p>,
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <a
-                href="https://api.github.com/repos/freeCodeCamp/freeCodeCamp"
-                target="_blank"
->
-                freeCodeCamp/freeCodeCamp
-</a>,
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "freeCodeCamp/freeCodeCamp",
-                "href": "https://api.github.com/repos/freeCodeCamp/freeCodeCamp",
-                "target": "_blank",
-              },
-              "ref": null,
-              "rendered": "freeCodeCamp/freeCodeCamp",
-              "type": "a",
-            },
-            "type": "h2",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                "Open Issues: ",
-                262,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              "Open Issues: ",
-              262,
-            ],
-            "type": "p",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                "Number of forks: ",
-                14052,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              "Number of forks: ",
-              14052,
-            ],
-            "type": "p",
-          },
-        ],
         "type": "div",
       },
       "type": "div",

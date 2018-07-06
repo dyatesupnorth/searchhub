@@ -1,3 +1,14 @@
 @tailwind preflight;
 @tailwind components;
+
+
+body{
+    @apply .font-sans 
+}
+p {
+    @apply .mb-2
+}
+
+
+@tailwind postflight;
 @tailwind utilities;

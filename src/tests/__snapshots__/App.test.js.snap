@@ -20,30 +20,35 @@ ShallowWrapper {
       "children": Array [
         false,
         <form
+          className="w-full mx-auto max-w-md"
           onSubmit={[Function]}
 >
-          <input
-                    onChange={[Function]}
-                    placeholder="Search a repo..."
-                    type="text"
-                    value=""
-          />
-          <button>
-                    Search
-          </button>
+          <div
+                    className="flex justify-center items-center border-b border-b-2 border-teal py-2"
+          >
+                    <input
+                              className="appearance-none bg-transparent border-none w-full text-grey-darker mr-3 py-1 px-2 leading-tight"
+                              onChange={[Function]}
+                              placeholder="Search for a Github repo..."
+                              type="text"
+                              value=""
+                    />
+                    <button
+                              className="flex-no-shrink bg-teal hover:bg-teal-dark border-teal hover:border-teal-dark text-sm border-4 text-white py-1 px-2 rounded"
+                    >
+                              Search
+                    </button>
+          </div>
 </form>,
-        <Results
-          results={
-                    Object {
-                              "items": Array [],
-                            }
-          }
-          selectItem={[Function]}
-/>,
-        false,
-        false,
+        <div
+          className="flex mb-4"
+>
+          <div
+                    className="w-1/3 h-12"
+          />
+</div>,
       ],
-      "className": "bg-grey-darker m-6 p-6 rounded shadow-lg",
+      "className": "container mx-auto",
     },
     "ref": null,
     "rendered": Array [
@@ -53,122 +58,46 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            <input
-              onChange={[Function]}
-              placeholder="Search a repo..."
-              type="text"
-              value=""
-/>,
-            <button>
-              Search
-</button>,
-          ],
-          "onSubmit": [Function],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "onChange": [Function],
-              "placeholder": "Search a repo...",
-              "type": "text",
-              "value": "",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "input",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Search",
-            },
-            "ref": null,
-            "rendered": "Search",
-            "type": "button",
-          },
-        ],
-        "type": "form",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "results": Object {
-            "items": Array [],
-          },
-          "selectItem": [Function],
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      false,
-      false,
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          false,
-          <form
-            onSubmit={[Function]}
+          "children": <div
+            className="flex justify-center items-center border-b border-b-2 border-teal py-2"
 >
             <input
+                        className="appearance-none bg-transparent border-none w-full text-grey-darker mr-3 py-1 px-2 leading-tight"
                         onChange={[Function]}
-                        placeholder="Search a repo..."
+                        placeholder="Search for a Github repo..."
                         type="text"
                         value=""
             />
-            <button>
+            <button
+                        className="flex-no-shrink bg-teal hover:bg-teal-dark border-teal hover:border-teal-dark text-sm border-4 text-white py-1 px-2 rounded"
+            >
                         Search
             </button>
-</form>,
-          <Results
-            results={
-                        Object {
-                                    "items": Array [],
-                                  }
-            }
-            selectItem={[Function]}
-/>,
-          false,
-          false,
-        ],
-        "className": "bg-grey-darker m-6 p-6 rounded shadow-lg",
-      },
-      "ref": null,
-      "rendered": Array [
-        false,
-        Object {
+</div>,
+          "className": "w-full mx-auto max-w-md",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
             "children": Array [
               <input
+                className="appearance-none bg-transparent border-none w-full text-grey-darker mr-3 py-1 px-2 leading-tight"
                 onChange={[Function]}
-                placeholder="Search a repo..."
+                placeholder="Search for a Github repo..."
                 type="text"
                 value=""
 />,
-              <button>
+              <button
+                className="flex-no-shrink bg-teal hover:bg-teal-dark border-teal hover:border-teal-dark text-sm border-4 text-white py-1 px-2 rounded"
+>
                 Search
 </button>,
             ],
-            "onSubmit": [Function],
+            "className": "flex justify-center items-center border-b border-b-2 border-teal py-2",
           },
           "ref": null,
           "rendered": Array [
@@ -177,8 +106,9 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "className": "appearance-none bg-transparent border-none w-full text-grey-darker mr-3 py-1 px-2 leading-tight",
                 "onChange": [Function],
-                "placeholder": "Search a repo...",
+                "placeholder": "Search for a Github repo...",
                 "type": "text",
                 "value": "",
               },
@@ -192,30 +122,204 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": "Search",
+                "className": "flex-no-shrink bg-teal hover:bg-teal-dark border-teal hover:border-teal-dark text-sm border-4 text-white py-1 px-2 rounded",
               },
               "ref": null,
               "rendered": "Search",
               "type": "button",
             },
           ],
+          "type": "div",
+        },
+        "type": "form",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="w-1/3 h-12"
+/>,
+            false,
+          ],
+          "className": "flex mb-4",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": false,
+              "className": "w-1/3 h-12",
+            },
+            "ref": null,
+            "rendered": false,
+            "type": "div",
+          },
+          false,
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          false,
+          <form
+            className="w-full mx-auto max-w-md"
+            onSubmit={[Function]}
+>
+            <div
+                        className="flex justify-center items-center border-b border-b-2 border-teal py-2"
+            >
+                        <input
+                                    className="appearance-none bg-transparent border-none w-full text-grey-darker mr-3 py-1 px-2 leading-tight"
+                                    onChange={[Function]}
+                                    placeholder="Search for a Github repo..."
+                                    type="text"
+                                    value=""
+                        />
+                        <button
+                                    className="flex-no-shrink bg-teal hover:bg-teal-dark border-teal hover:border-teal-dark text-sm border-4 text-white py-1 px-2 rounded"
+                        >
+                                    Search
+                        </button>
+            </div>
+</form>,
+          <div
+            className="flex mb-4"
+>
+            <div
+                        className="w-1/3 h-12"
+            />
+</div>,
+        ],
+        "className": "container mx-auto",
+      },
+      "ref": null,
+      "rendered": Array [
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="flex justify-center items-center border-b border-b-2 border-teal py-2"
+>
+              <input
+                            className="appearance-none bg-transparent border-none w-full text-grey-darker mr-3 py-1 px-2 leading-tight"
+                            onChange={[Function]}
+                            placeholder="Search for a Github repo..."
+                            type="text"
+                            value=""
+              />
+              <button
+                            className="flex-no-shrink bg-teal hover:bg-teal-dark border-teal hover:border-teal-dark text-sm border-4 text-white py-1 px-2 rounded"
+              >
+                            Search
+              </button>
+</div>,
+            "className": "w-full mx-auto max-w-md",
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  className="appearance-none bg-transparent border-none w-full text-grey-darker mr-3 py-1 px-2 leading-tight"
+                  onChange={[Function]}
+                  placeholder="Search for a Github repo..."
+                  type="text"
+                  value=""
+/>,
+                <button
+                  className="flex-no-shrink bg-teal hover:bg-teal-dark border-teal hover:border-teal-dark text-sm border-4 text-white py-1 px-2 rounded"
+>
+                  Search
+</button>,
+              ],
+              "className": "flex justify-center items-center border-b border-b-2 border-teal py-2",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "appearance-none bg-transparent border-none w-full text-grey-darker mr-3 py-1 px-2 leading-tight",
+                  "onChange": [Function],
+                  "placeholder": "Search for a Github repo...",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Search",
+                  "className": "flex-no-shrink bg-teal hover:bg-teal-dark border-teal hover:border-teal-dark text-sm border-4 text-white py-1 px-2 rounded",
+                },
+                "ref": null,
+                "rendered": "Search",
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
           "type": "form",
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
+          "nodeType": "host",
           "props": Object {
-            "results": Object {
-              "items": Array [],
-            },
-            "selectItem": [Function],
+            "children": Array [
+              <div
+                className="w-1/3 h-12"
+/>,
+              false,
+            ],
+            "className": "flex mb-4",
           },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": false,
+                "className": "w-1/3 h-12",
+              },
+              "ref": null,
+              "rendered": false,
+              "type": "div",
+            },
+            false,
+          ],
+          "type": "div",
         },
-        false,
-        false,
       ],
       "type": "div",
     },
