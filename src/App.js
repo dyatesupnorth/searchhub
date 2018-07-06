@@ -51,7 +51,7 @@ class App extends Component {
     return (
       <div className="App">
       {/* Add (e) for preventDefault  on form submit*/}
-      <form onSubmit={((e) => this.handleSubmit(e) )}>  
+      <form onSubmit={(e) => this.handleSubmit(e) }>  
         <input type="text" placeholder="Search a repo..." onChange={this.onSearchChange} value={this.state.searchTerm}/>
         <button>Search</button>
       </form>

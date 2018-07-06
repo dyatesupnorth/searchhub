@@ -120,9 +120,24 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <p>
-        Repository Selected 
-</p>,
+      "children": <div>
+        <h2>
+                <a
+                        href="https://api.github.com/repos/freeCodeCamp/freeCodeCamp"
+                        target="_blank"
+                >
+                        freeCodeCamp/freeCodeCamp
+                </a>
+        </h2>
+        <p>
+                Open Issues: 
+                262
+        </p>
+        <p>
+                Number of forks: 
+                14052
+        </p>
+</div>,
     },
     "ref": null,
     "rendered": Object {
@@ -130,11 +145,91 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "Repository Selected ",
+        "children": Array [
+          <h2>
+            <a
+                        href="https://api.github.com/repos/freeCodeCamp/freeCodeCamp"
+                        target="_blank"
+            >
+                        freeCodeCamp/freeCodeCamp
+            </a>
+</h2>,
+          <p>
+            Open Issues: 
+            262
+</p>,
+          <p>
+            Number of forks: 
+            14052
+</p>,
+        ],
       },
       "ref": null,
-      "rendered": "Repository Selected ",
-      "type": "p",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <a
+              href="https://api.github.com/repos/freeCodeCamp/freeCodeCamp"
+              target="_blank"
+>
+              freeCodeCamp/freeCodeCamp
+</a>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "freeCodeCamp/freeCodeCamp",
+              "href": "https://api.github.com/repos/freeCodeCamp/freeCodeCamp",
+              "target": "_blank",
+            },
+            "ref": null,
+            "rendered": "freeCodeCamp/freeCodeCamp",
+            "type": "a",
+          },
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Open Issues: ",
+              262,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Open Issues: ",
+            262,
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Number of forks: ",
+              14052,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Number of forks: ",
+            14052,
+          ],
+          "type": "p",
+        },
+      ],
+      "type": "div",
     },
     "type": "div",
   },
@@ -144,9 +239,24 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <p>
-          Repository Selected 
-</p>,
+        "children": <div>
+          <h2>
+                    <a
+                              href="https://api.github.com/repos/freeCodeCamp/freeCodeCamp"
+                              target="_blank"
+                    >
+                              freeCodeCamp/freeCodeCamp
+                    </a>
+          </h2>
+          <p>
+                    Open Issues: 
+                    262
+          </p>
+          <p>
+                    Number of forks: 
+                    14052
+          </p>
+</div>,
       },
       "ref": null,
       "rendered": Object {
@@ -154,11 +264,91 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Repository Selected ",
+          "children": Array [
+            <h2>
+              <a
+                            href="https://api.github.com/repos/freeCodeCamp/freeCodeCamp"
+                            target="_blank"
+              >
+                            freeCodeCamp/freeCodeCamp
+              </a>
+</h2>,
+            <p>
+              Open Issues: 
+              262
+</p>,
+            <p>
+              Number of forks: 
+              14052
+</p>,
+          ],
         },
         "ref": null,
-        "rendered": "Repository Selected ",
-        "type": "p",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <a
+                href="https://api.github.com/repos/freeCodeCamp/freeCodeCamp"
+                target="_blank"
+>
+                freeCodeCamp/freeCodeCamp
+</a>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "freeCodeCamp/freeCodeCamp",
+                "href": "https://api.github.com/repos/freeCodeCamp/freeCodeCamp",
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": "freeCodeCamp/freeCodeCamp",
+              "type": "a",
+            },
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Open Issues: ",
+                262,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Open Issues: ",
+              262,
+            ],
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Number of forks: ",
+                14052,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Number of forks: ",
+              14052,
+            ],
+            "type": "p",
+          },
+        ],
+        "type": "div",
       },
       "type": "div",
     },
