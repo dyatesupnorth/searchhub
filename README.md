@@ -8,7 +8,7 @@ Search..Hub is an awesome project built with React that lets you do the followin
 - [x] Shows extra information in a detail view
 - [x] Handles invalid input appropriately
 
-To run it:
+To run the project:
 
 ```git clone https://github.com/dyatesupnorth/searchhub.git && cd searchhub && yarn install && yarn start`
 
