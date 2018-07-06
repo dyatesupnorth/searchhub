@@ -1,12 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-Search..Hub is an awesome project built with React that lets you do the following (this is also a todo list):
-
 View the project here: <https://searchhub-80251.firebaseapp.com/>
+
+Search..Hub is an awesome project built with React that lets you do the following (this is also a todo list):
 
 - [x] Allows A User to Search for a Github repository by name
 - [x] Shows extra information in a detail view
 - [x] Handles invalid input appropriately
+
+To run it:
+
+```git clone https://github.com/dyatesupnorth/searchhub.git && cd searchhub && yarn install && yarn start```
 
 Current third-party dependencies:
 
