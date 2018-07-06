@@ -1,8 +1,6 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import ReadMe from '../components/ReadMe'
 import Enzyme, { shallow, mount } from 'enzyme'
-import toJson from 'enzyme-to-json'
 import Adapter from 'enzyme-adapter-react-16';
 import readme from './fixtures/readme'
 
