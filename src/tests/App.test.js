@@ -51,12 +51,14 @@ describe('fetches a Github repository by search term', () => {
 
     const appWrapper = shallow(<App />)
 
-    // wrapper.instance().selectItem(results.items[0])
-    console.log('appWrapper.instance(): ', appWrapper.instance())
-    appWrapper.instance().selectItem(results.items[0])
-
+    
     // Mock the axios GET call
     axios.get = jest.fn(() => Promise.resolve(readmeResponse));
+    // wrapper.instance().selectItem(results.items[0])
+    const item = appWrapper.instance().selectItem(results.items[0])
+
+    // Expect selectedItem state to be set  
+    expect(appWrapper.state('selectedItem')).toEqual(results.items[0])
 
     // Check GET called correctly
     expect(axios.get).toBeCalledWith('https://api.github.com/repos/freeCodeCamp/freeCodeCamp/readme');

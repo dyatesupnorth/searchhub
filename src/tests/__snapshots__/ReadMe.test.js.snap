@@ -1,0 +1,352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Results with empty message 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ReadMe
+    readme={Object {}}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        undefined,
+        <p>
+          No Readme for selected repository
+</p>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      undefined,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "No Readme for selected repository",
+        },
+        "ref": null,
+        "rendered": "No Readme for selected repository",
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          undefined,
+          <p>
+            No Readme for selected repository
+</p>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "No Readme for selected repository",
+          },
+          "ref": null,
+          "rendered": "No Readme for selected repository",
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`should render Results with results 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ReadMe
+    readme={
+        Object {
+            "_links": Object {
+              "git": "https://api.github.com/repos/freeCodeCamp/freeCodeCamp/git/blobs/593e45fa19142d9a85dc0ecd0ddaa73513340256",
+              "html": "https://github.com/freeCodeCamp/freeCodeCamp/blob/staging/README.md",
+              "self": "https://api.github.com/repos/freeCodeCamp/freeCodeCamp/contents/README.md?ref=staging",
+            },
+            "content": "IVtmcmVlQ29kZUNhbXAgU29jaWFsIEJhbm5lcl0oaHR0cHM6Ly9zMy5hbWF6
+        b25hd3MuY29tL2ZyZWVjb2RlY2FtcC93aWRlLXNvY2lhbC1iYW5uZXIucG5n
+        KQpbIVtCdWlsZCBTdGF0dXNdKGh0dHBzOi8vdHJhdmlzLWNpLm9yZy9mcmVl
+        Q29kZUNhbXAvZnJlZUNvZGVDYW1wLnN2Zz9icmFuY2g9c3RhZ2luZyldKGh0
+        dHBzOi8vdHJhdmlzLWNpLm9yZy9mcmVlQ29kZUNhbXAvZnJlZUNvZGVDYW1w
+        KQpbIVtQdWxsIFJlcXVlc3RzIFdlbGNvbWVdKGh0dHBzOi8vaW1nLnNoaWVs
+        ZHMuaW8vYmFkZ2UvUFJzLXdlbGNvbWUtYnJpZ2h0Z3JlZW4uc3ZnP3N0eWxl
+        PWZsYXQpXShodHRwOi8vbWFrZWFwdWxscmVxdWVzdC5jb20pClshW2ZpcnN0
+        LXRpbWVycy1vbmx5IEZyaWVuZGx5XShodHRwczovL2ltZy5zaGllbGRzLmlv
+        L2JhZGdlL2ZpcnN0LS10aW1lcnMtLW9ubHktZnJpZW5kbHktYmx1ZS5zdmcp
+        XShodHRwOi8vd3d3LmZpcnN0dGltZXJzb25seS5jb20vKQpbIVtLbm93biBW
+        dWxuZXJhYmlsaXRpZXNdKGh0dHBzOi8vc255ay5pby90ZXN0L2dpdGh1Yi9m
+        cmVlY29kZWNhbXAvZnJlZWNvZGVjYW1wL2JhZGdlLnN2ZyldKGh0dHBzOi8v
+        c255ay5pby90ZXN0L2dpdGh1Yi9mcmVlY29kZWNhbXAvZnJlZWNvZGVjYW1w
+        KQoKIyMgV2VsY29tZSB0byBmcmVlQ29kZUNhbXAncyBvcGVuIHNvdXJjZSBj
+        b2RlYmFzZSBhbmQgY3VycmljdWx1bSEKCmZyZWVDb2RlQ2FtcCBpcyBhIGZy
+        aWVuZGx5IGNvbW11bml0eSB3aGVyZSB5b3UgY2FuIGxlYXJuIHRvIGNvZGUg
+        Zm9yIGZyZWUuIEl0IGlzIHJ1biBieSBhIFtkb25vci1zdXBwb3J0ZWQgNTAx
+        KGMpKDMpIG5vbnByb2ZpdF0oaHR0cHM6Ly9kb25hdGUuZnJlZWNvZGVjYW1w
+        Lm9yZykgd2l0aCB0aGUgZ29hbCBvZiBoZWxwaW5nIG1pbGxpb25zIG9mIGJ1
+        c3kgYWR1bHRzIHRyYW5zaXRpb24gaW50byB0ZWNoLiBPdXIgY29tbXVuaXR5
+        IGhhcyBhbHJlYWR5IGhlbHBlZCBtb3JlIHRoYW4gMTAsMDAwIHBlb3BsZSBn
+        ZXQgdGhlaXIgZmlyc3QgZGV2ZWxvcGVyIGpvYi4KCk91ciBmdWxsIHN0YWNr
+        IHdlYiBkZXZlbG9wbWVudCBjdXJyaWN1bHVtIGlzIGNvbXBsZXRlbHkgZnJl
+        ZSBhbmQgc2VsZi1wYWNlZC4gV2UgaGF2ZSB0aG91c2FuZHMgb2YgaW50ZXJh
+        Y3RpdmUgY29kaW5nIGNoYWxsZW5nZXMgdG8gaGVscCB5b3UgZXhwYW5kIHlv
+        dXIgc2tpbGxzLgoKIyMjIENlcnRpZmljYXRpb25zCgpmcmVlQ29kZUNhbXAg
+        b2ZmZXJzIHNldmVyYWwgZnJlZSBkZXZlbG9wZXIgY2VydGlmaWNhdGlvbnMu
+        IEVhY2ggb2YgdGhlc2UgY2VydGlmaWNhdGlvbnMgaW52b2x2ZXMgYnVpbGRp
+        bmcgNSByZXF1aXJlZCB3ZWIgYXBwIHByb2plY3RzLCBhbG9uZyB3aXRoIGh1
+        bmRyZWRzIG9mIG9wdGlvbmFsIGNvZGluZyBjaGFsbGVuZ2VzIHRvIGhlbHAg
+        eW91IHByZXBhcmUgZm9yIHRob3NlIHByb2plY3RzLiBXZSBlc3RpbWF0ZSB0
+        aGF0IGVhY2ggY2VydGlmaWNhdGlvbiB3aWxsIHRha2UgYmVnaW5uZXIgcHJv
+        Z3JhbW1lcnMgYXJvdW5kIDMwMCBob3VycyB0byBlYXJuLgoKRWFjaCBvZiB0
+        aGVzZSAzMCBwcm9qZWN0IGluIHRoZSBmcmVlQ29kZUNhbXAgY3VycmljdWx1
+        bSBoYXMgaXRzIG93biBhZ2lsZSB1c2VyIHN0b3JpZXMgYW5kIGF1dG9tYXRl
+        ZCB0ZXN0cy4gVGhlc2UgaGVscCB5b3UgYnVpbGQgdXAgeW91ciBwcm9qZWN0
+        IGluY3JlbWVudGFsbHksIGFuZCBlbnN1cmUgeW91J3ZlIGZ1bGZpbGxlZCBh
+        bGwgdGhlIHVzZXIgc3RvcmllcyBiZWZvcmUgc3VibWl0dGluZyBpdC4KCllv
+        dSBjYW4gcHVsbCBpbiB0aGVzZSB0ZXN0IHN1aXRlcyB0aHJvdWdoIFtmcmVl
+        Q29kZUNhbXAncyBDRE5dKGh0dHBzOi8vY2RuLmZyZWVjb2RlY2FtcC5vcmcv
+        dGVzdGFibGUtcHJvamVjdHMtZmNjL3YxL2J1bmRsZS5qcykuIFRoaXMgbWVh
+        bnMgeW91IGNhbiBidWlsZCB0aGVzZSBwcm9qZWN0cyBvbiB3ZWJzaXRlcyBs
+        aWtlIENvZGVQZW4gYW5kIEdsaXRjaCAtIG9yIGV2ZW4gb24geW91ciBsb2Nh
+        bCBkZXZlbG9wbWVudCBlbnZpcm9ubWVudC4KCk9uY2UgeW914oCZdmUgZWFy
+        bmVkIGEgY2VydGlmaWNhdGlvbiwgeW91IHdpbGwgYWx3YXlzIGhhdmUgaXQu
+        IFlvdSB3aWxsIGFsd2F5cyBiZSBhYmxlIHRvIGxpbmsgdG8gaXQgZnJvbSB5
+        b3VyIExpbmtlZEluIG9yIHLDqXN1bcOpLiBBbmQgd2hlbiB5b3VyIHByb3Nw
+        ZWN0aXZlIGVtcGxveWVycyBvciBmcmVlbGFuY2UgY2xpZW50cyBjbGljayB0
+        aGF0IGxpbmssIHRoZXnigJlsbCBzZWUgYSB2ZXJpZmllZCBjZXJ0aWZpY2F0
+        aW9uIHNwZWNpZmljIHRvIHlvdS4KClRoZSBvbmUgZXhjZXB0aW9uIHRvIHRo
+        aXMgaXMgaW4gdGhlIGV2ZW50IHRoYXQgd2UgZGlzY292ZXIgdmlvbGF0aW9u
+        cyBvZiBvdXIgW0FjYWRlbWljIEhvbmVzdHkgUG9saWN5XShodHRwczovL3d3
+        dy5mcmVlY29kZWNhbXAub3JnL2FjYWRlbWljLWhvbmVzdHkpLiBXaGVuIHdl
+        IGNhdGNoIHBlb3BsZSB1bmFtYmlndW91c2x5IHBsYWdpYXJpemluZyAoc3Vi
+        bWl0dGluZyBvdGhlciBwZW9wbGUncyBjb2RlIG9yIHByb2plY3RzIGFzIHRo
+        ZWlyIG93biB3aXRob3V0IGNpdGF0aW9uKSwgd2UgZG8gd2hhdCBhbGwgcmln
+        b3JvdXMgaW5zdGl0dXRpb25zIG9mIGxlYXJuaW5nIHNob3VsZCBkbyAtIHdl
+        IHJldm9rZSB0aGVpciBjZXJ0aWZpY2F0aW9ucyBhbmQgYmFuIHRob3NlIHBl
+        b3BsZS4KCkhlcmUgYXJlIG91ciBzaXggY29yZSBjZXJ0aWZpY2F0aW9uczoK
+        CiMjIyMgMS4gUmVzcG9uc2l2ZSBXZWIgRGVzaWduIENlcnRpZmljYXRpb24K
+        Ci0gQmFzaWMgSFRNTCBhbmQgSFRNTDUKLSBCYXNpYyBDU1MKLSBBcHBsaWVk
+        IFZpc3VhbCBEZXNpZ24KLSBBcHBsaWVkIEFjY2Vzc2liaWxpdHkKLSBSZXNw
+        b25zaXZlIFdlYiBEZXNpZ24gUHJpbmNpcGxlcwotIENTUyBGbGV4Ym94Ci0g
+        Q1NTIEdyaWQgPGJyIC8+CiAgKipQcm9qZWN0cyoqOiBUcmlidXRlIFBhZ2Us
+        IFN1cnZleSBGb3JtLCBQcm9kdWN0IExhbmRpbmcgUGFnZSwgVGVjaG5pY2Fs
+        IERvY3VtZW50YXRpb24gUGFnZSwgUGVyc29uYWwgUG9ydGZvbGlvIFdlYnBh
+        Z2UKCiMjIyMgMi4gSmF2YVNjcmlwdCBBbGdvcml0aG1zIGFuZCBEYXRhIFN0
+        cnVjdHVyZXMgQ2VydGlmaWNhdGlvbgoKLSBCYXNpYyBKYXZhU2NyaXB0Ci0g
+        RVM2Ci0gUmVndWxhciBFeHByZXNzaW9ucwotIERlYnVnZ2luZwotIEJhc2lj
+        IERhdGEgU3RydWN0dXJlcwotIEFsZ29yaXRobSBTY3JpcHRpbmcKLSBPYmpl
+        Y3QgT3JpZW50ZWQgUHJvZ3JhbW1pbmcKLSBGdW5jdGlvbmFsIFByb2dyYW1t
+        aW5nIDxiciAvPgogICoqUHJvamVjdHMqKjogUGFsaW5kcm9tZSBDaGVja2Vy
+        LCBSb21hbiBOdW1lcmFsIENvbnZlcnRlciwgQ2Flc2FycyBDaXBoZXIsIFRl
+        bGVwaG9uZSBOdW1iZXIgVmFsaWRhdG9yLCBDYXNoIFJlZ2lzdGVyCgojIyMj
+        IDMuIEZyb250IEVuZCBMaWJyYXJpZXMgQ2VydGlmaWNhdGlvbgoKLSBCb290
+        c3RyYXAKLSBqUXVlcnkKLSBTYXNzCi0gUmVhY3QKLSBSZWR1eAotIFJlYWN0
+        IGFuZCBSZWR1eCA8YnIgLz4KICAqKlByb2plY3RzKio6IFJhbmRvbSBRdW90
+        ZSBNYWNoaW5lLCBNYXJrZG93biBQcmV2aWV3ZXIsIERydW0gTWFjaGluZSwg
+        SmF2YVNjcmlwdCBDYWxjdWxhdG9yLCBQb21vZG9ybyBDbG9jawoKIyMjIyA0
+        LiBEYXRhIFZpc3VhbGl6YXRpb24gQ2VydGlmaWNhdGlvbgoKLSBEYXRhIFZp
+        c3VhbGl6YXRpb24gd2l0aCBEMwotIEpTT04gQVBJcyBhbmQgQWpheCA8YnIg
+        Lz4KICAqKlByb2plY3RzKio6IEJhciBDaGFydCwgU2NhdHRlcnBsb3QgR3Jh
+        cGgsIEhlYXQgTWFwLCBDaG9yb3BsZXRoIE1hcCwgVHJlZW1hcCBEaWFncmFt
+        CgojIyMjIDUuIEFQSXMgYW5kIE1pY3Jvc2VydmljZXMgQ2VydGlmaWNhdGlv
+        bgoKLSBNYW5hZ2luZyBQYWNrYWdlcyB3aXRoIE5wbQotIEJhc2ljIE5vZGUg
+        YW5kIEV4cHJlc3MKLSBNb25nb0RCIGFuZCBNb25nb29zZSA8YnIgLz4KICAq
+        KlByb2plY3RzKio6IFRpbWVzdGFtcCBNaWNyb3NlcnZpY2UsIFJlcXVlc3Qg
+        SGVhZGVyIFBhcnNlciwgVVJMIFNob3J0ZW5lciwgRXhlcmNpc2UgVHJhY2tl
+        ciwgRmlsZSBNZXRhZGF0YSBNaWNyb3NlcnZpY2UKCiMjIyMgNi4gSW5mb3Jt
+        YXRpb24gU2VjdXJpdHkgYW5kIFF1YWxpdHkgQXNzdXJhbmNlIENlcnRpZmlj
+        YXRpb24KCi0gSW5mb3JtYXRpb24gU2VjdXJpdHkgd2l0aCBIZWxtZXRKUwot
+        IFF1YWxpdHkgQXNzdXJhbmNlIGFuZCBUZXN0aW5nIHdpdGggQ2hhaQotIEFk
+        dmFuY2VkIE5vZGUgYW5kIEV4cHJlc3MgPGJyIC8+CiAgKipQcm9qZWN0cyoq
+        OiBNZXRyaWMtSW1wZXJpYWwgQ29udmVydGVyLCBJc3N1ZSBUcmFja2VyLCBQ
+        ZXJzb25hbCBMaWJyYXJ5LCBTdG9jayBQcmljZSBDaGVja2VyLCBBbm9ueW1v
+        dXMgTWVzc2FnZSBCb2FyZAoKIyMjIyBGdWxsIFN0YWNrIERldmVsb3BtZW50
+        IENlcnRpZmljYXRpb24KCk9uY2UgeW91IGVhcm4gYWxsIDYgb2YgdGhlc2Ug
+        Y2VydGlmaWNhdGlvbnMsIHlvdSdsbCBiZSBhYmxlIHRvIGNsYWltIHlvdXIg
+        ZnJlZUNvZGVDYW1wIEZ1bGwgU3RhY2sgRGV2ZWxvcG1lbnQgQ2VydGlmaWNh
+        dGlvbi4gVGhpcyBmaW5hbCBkaXN0aW5jdGlvbiBzaWduaWZpZXMgdGhhdCB5
+        b3XigJl2ZSBjb21wbGV0ZWQgYXJvdW5kIDEsODAwIGhvdXJzIG9mIGNvZGlu
+        ZyB3aXRoIGEgd2lkZSByYW5nZSBvZiB3ZWIgZGV2ZWxvcG1lbnQgdG9vbHMu
+        CgojIyMjIExlZ2FjeSBDZXJ0aWZpY2F0aW9ucwoKV2UgYWxzbyBoYXZlIDMg
+        bGVnYWN5IGNlcnRpZmljYXRpb25zIGZyb20gb3VyIDIwMTUgY3VycmljdWx1
+        bSwgd2hpY2ggYXJlIHN0aWxsIGF2YWlsYWJsZS4gQWxsIG9mIHRoZSByZXF1
+        aXJlZCBwcm9qZWN0cyBmb3IgdGhlc2UgbGVnYWN5IGNlcnRpZmljYXRpb25z
+        IHdpbGwgcmVtYWluIGF2YWlsYWJsZSBvbiBmcmVlQ29kZUNhbXAuCgotIExl
+        Z2FjeSBGcm9udCBFbmQgRGV2ZWxvcG1lbnQgQ2VydGlmaWNhdGlvbgotIExl
+        Z2FjeSBEYXRhIFZpc3VhbGl6YXRpb24gQ2VydGlmaWNhdGlvbgotIExlZ2Fj
+        eSBCYWNrIEVuZCBEZXZlbG9wbWVudCBDZXJ0aWZpY2F0aW9uCgojIyMgVGhl
+        IExlYXJuaW5nIFBsYXRmb3JtCgpUaGlzIGNvZGUgaXMgcnVubmluZyBsaXZl
+        IGF0IFtmcmVlQ29kZUNhbXAub3JnXShodHRwczovL3d3dy5mcmVlY29kZWNh
+        bXAub3JnKS4KCk91ciBjb21tdW5pdHkgYWxzbyBoYXM6CgotIGEgc3VwZXIg
+        YWN0aXZlIFtmb3J1bV0oaHR0cHM6Ly9mb3J1bS5mcmVlY29kZWNhbXAub3Jn
+        KQotIHRob3VzYW5kcyBvZiBbbG9jYWwgc3R1ZHkgZ3JvdXBzXShodHRwczov
+        L3N0dWR5LWdyb3VwLWRpcmVjdG9yeS5mcmVlY29kZWNhbXAub3JnLykgYXJv
+        dW5kIHRoZSB3b3JsZCwgd2hlcmUgeW91IGNhbiBjb2RlIHRvZ2V0aGVyIGlu
+        IHBlcnNvbgotIE1lZGl1bSdzIFtsYXJnZXN0IHRlY2huaWNhbCBwdWJsaWNh
+        dGlvbl0oaHR0cHM6Ly9tZWRpdW0uZnJlZWNvZGVjYW1wLm9yZykKLSBBIHBv
+        cHVsYXIgW1lvdVR1YmUgY2hhbm5lbF0oaHR0cHM6Ly95b3V0dWJlLmNvbS9m
+        cmVlY29kZWNhbXApCi0gYW5kIGEgY29tcHJlaGVuc2l2ZSBbZ3VpZGUgdG8g
+        dGhvdXNhbmRzIG9mIHByb2dyYW1taW5nIHRvcGljc10oaHR0cHM6Ly9ndWlk
+        ZS5mcmVlY29kZWNhbXAub3JnKQoKIyMjIFtKb2luIG91ciBjb21tdW5pdHkg
+        aGVyZV0oaHR0cHM6Ly93d3cuZnJlZWNvZGVjYW1wLm9yZy9zaWduaW4pLgoK
+        IyMjIEZvdW5kIGEgYnVnPwoKSWYgeW91IHRoaW5rIHlvdSd2ZSBmb3VuZCBh
+        IGJ1ZywgZmlyc3QgcmVhZCB0aGUgW0hlbHAgSSd2ZSBGb3VuZCBhIEJ1Z10o
+        aHR0cHM6Ly9mb3J1bS5mcmVlY29kZWNhbXAub3JnL3QvaG93LXRvLXJlcG9y
+        dC1hLWJ1Zy8xOTU0MykgYXJ0aWNsZSBhbmQgZm9sbG93IGl0cyBpbnN0cnVj
+        dGlvbnMuIElmIHlvdSdyZSBjb25maWRlbnQgaXQncyBhIG5ldyBidWcsIGdv
+        IGFoZWFkIGFuZCBjcmVhdGUgYSBuZXcgR2l0SHViIGlzc3VlLiBCZSBzdXJl
+        IHRvIGluY2x1ZGUgYXMgbXVjaCBpbmZvcm1hdGlvbiBhcyBwb3NzaWJsZSBz
+        byB3ZSBjYW4gcmVwcm9kdWNlIHRoZSBidWcuCgojIyMgRm91bmQgYSBzZWN1
+        cml0eSBpc3N1ZT8KClBsZWFzZSBkb24ndCBjcmVhdGUgR2l0SHViIGlzc3Vl
+        cyBmb3Igc2VjdXJpdHkgaXNzdWVzLiBJbnN0ZWFkLCBwbGVhc2Ugc2VuZCBh
+        biBlbWFpbCB0byBzZWN1cml0eUBmcmVlY29kZWNhbXAub3JnIGFuZCB3ZSds
+        bCBsb29rIGludG8gaXQgaW1tZWRpYXRlbHkuCgojIyMgQ29udHJpYnV0aW5n
+        CgpXZSB3ZWxjb21lIHB1bGwgcmVxdWVzdHMgZnJvbSBtZW1iZXJzIG9mIHRo
+        ZSBmcmVlQ29kZUNhbXAgY29tbXVuaXR5IGFuZCBmcm9tIHZldGVyYW4gZGV2
+        ZWxvcGVycyBhbGlrZSEgUGxlYXNlIGZvbGxvdyBbdGhlc2Ugc3RlcHNdKENP
+        TlRSSUJVVElORy5tZCkgdG8gY29udHJpYnV0ZS4KCiMjIyBMaWNlbnNlCgpD
+        b3B5cmlnaHQgKGMpIDIwMTggZnJlZUNvZGVDYW1wLgoKVGhlIGNvbnRlbnQg
+        b2YgdGhpcyByZXBvc2l0b3J5IGJvdW5kIGJ5IHRoZSBmb2xsb3dpbmcgbGlj
+        ZW5zZXM6CgotIFRoZSBjb21wdXRlciBzb2Z0d2FyZSBpcyBsaWNlbnNlZCB1
+        bmRlciB0aGUgW0JTRC0zLUNsYXVzZV0oLi9MSUNFTlNFLm1kKS4KLSBUaGUg
+        Y3VycmljdWxhciBjb250ZW50IGluIHRoZSBbYC9zZWVkYF0oL3NlZWQpIGFu
+        ZCBzdWJkaXJlY3RvcmllcyBhcmUgbGljZW5zZWQgdW5kZXIgdGhlIFtDQy1C
+        WS1TQS00LjBdKC4vc2VlZC9MSUNFTlNFLm1kKQo=
+        ",
+            "download_url": "https://raw.githubusercontent.com/freeCodeCamp/freeCodeCamp/staging/README.md",
+            "encoding": "base64",
+            "git_url": "https://api.github.com/repos/freeCodeCamp/freeCodeCamp/git/blobs/593e45fa19142d9a85dc0ecd0ddaa73513340256",
+            "html_url": "https://github.com/freeCodeCamp/freeCodeCamp/blob/staging/README.md",
+            "name": "README.md",
+            "path": "README.md",
+            "sha": "593e45fa19142d9a85dc0ecd0ddaa73513340256",
+            "size": 6644,
+            "type": "file",
+            "url": "https://api.github.com/repos/freeCodeCamp/freeCodeCamp/contents/README.md?ref=staging",
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        undefined,
+        <div>
+          <p />
+</div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      undefined,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <p />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "p",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          undefined,
+          <div>
+            <p />
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <p />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "p",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

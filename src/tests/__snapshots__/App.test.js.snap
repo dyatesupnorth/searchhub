@@ -39,9 +39,8 @@ ShallowWrapper {
           }
           selectItem={[Function]}
 />,
-        <RepositoryDetail
-          item={Object {}}
-/>,
+        false,
+        false,
       ],
       "className": "App",
     },
@@ -109,17 +108,8 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {
-          "item": Object {},
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
+      false,
+      false,
     ],
     "type": "div",
   },
@@ -151,9 +141,8 @@ ShallowWrapper {
             }
             selectItem={[Function]}
 />,
-          <RepositoryDetail
-            item={Object {}}
-/>,
+          false,
+          false,
         ],
         "className": "App",
       },
@@ -221,17 +210,8 @@ ShallowWrapper {
           "rendered": null,
           "type": [Function],
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "item": Object {},
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
+        false,
+        false,
       ],
       "type": "div",
     },

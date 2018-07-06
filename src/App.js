@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Results from './components/Results'
 import RepositoryDetail from './components/RepositoryDetail'
+import ReadMe from './components/ReadMe'
+import {isEmpty} from './helpers'
 import axios from 'axios'
 class App extends Component {
    // Set initial state, instead of constructor, reference 'this.props'
@@ -36,12 +38,28 @@ class App extends Component {
       })
       .catch(err => {
         console.log('err: ', err);
-       
+        this.setState({
+          error: err
+        });
+      });
+  }
+  getReadme = (repo) => {
+    console.log('repo: ', repo);
+    axios.get(`https://api.github.com/repos/${repo.full_name}/readme`)
+      .then(res => {
+        // console.log('res: ', res);
+        
+      })
+      .catch(err => {
+        console.log('err: ', err);
+        this.setState({
+          error: err
+        });
       });
   }
   selectItem = (selectedItem) => {
-    console.log('select item : ', selectedItem);
     this.setState({selectedItem})
+    
   }
   onSearchChange = (e) => {
     const searchTerm = e.target.value;
@@ -51,12 +69,14 @@ class App extends Component {
     return (
       <div className="App">
       {/* Add (e) for preventDefault  on form submit*/}
+      {this.state.error !== null && <p>{this.state.error.response.data.message}</p>}
       <form onSubmit={(e) => this.handleSubmit(e) }>  
         <input type="text" placeholder="Search a repo..." onChange={this.onSearchChange} value={this.state.searchTerm}/>
         <button>Search</button>
       </form>
       <Results results={this.state.result} selectItem={this.selectItem}/>
-      <RepositoryDetail item={this.state.selectedItem}  />
+      {!isEmpty(this.state.selectedItem) && <RepositoryDetail item={this.state.selectedItem}  />}
+      {!isEmpty(this.state.selectedItem) && <ReadMe readme={this.getReadme(this.state.selectedItem)} />}
       </div>
     );
   }
