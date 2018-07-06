@@ -10,7 +10,7 @@ Search..Hub is an awesome project built with React that lets you do the followin
 
 To run it:
 
-```git clone https://github.com/dyatesupnorth/searchhub.git && cd searchhub && yarn install && yarn start```
+```git clone https://github.com/dyatesupnorth/searchhub.git && cd searchhub && yarn install && yarn start`
 
 Current third-party dependencies:
 
