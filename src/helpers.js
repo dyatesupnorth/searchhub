@@ -8,3 +8,8 @@ export const isEmpty = (obj) => {
  export const decodeBase64 = (string) => {
    return decode(string)
  }
+
+ export const parseMarkdown = (string) => {
+     return string
+
+}
