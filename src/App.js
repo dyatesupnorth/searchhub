@@ -21,7 +21,7 @@ class App extends Component {
     });
     axios.get(`https://api.github.com/search/repositories?q=${this.state.searchTerm}`)
       .then(res => {
-         // Transform the raw data by extracting the nested posts
+         // Transform the raw data by extracting the nested items
          const items = res.data.items.map(obj => {
            return obj
          });

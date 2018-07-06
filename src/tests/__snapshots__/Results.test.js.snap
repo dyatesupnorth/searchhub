@@ -23,17 +23,36 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [
-        undefined,
-        <p>
-           No Github Repos'
+      "children": <p>
+         No Github Repos'
 </p>,
-      ],
     },
     "ref": null,
-    "rendered": Array [
-      undefined,
-      Object {
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": " No Github Repos'",
+      },
+      "ref": null,
+      "rendered": " No Github Repos'",
+      "type": "p",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <p>
+           No Github Repos'
+</p>,
+      },
+      "ref": null,
+      "rendered": Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
@@ -44,37 +63,6 @@ ShallowWrapper {
         "rendered": " No Github Repos'",
         "type": "p",
       },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          undefined,
-          <p>
-             No Github Repos'
-</p>,
-        ],
-      },
-      "ref": null,
-      "rendered": Array [
-        undefined,
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": " No Github Repos'",
-          },
-          "ref": null,
-          "rendered": " No Github Repos'",
-          "type": "p",
-        },
-      ],
       "type": "div",
     },
   ],
@@ -3103,284 +3091,280 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        undefined,
-        Array [
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        freeCodeCamp/freeCodeCamp
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    freeCodeCamp/freeCodeCamp
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        facebook/react
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    facebook/react
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        facebook/react-native
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    facebook/react-native
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        facebook/create-react-app
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    facebook/create-react-app
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        mui-org/material-ui
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    mui-org/material-ui
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        justjavac/free-programming-books-zh_CN
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    justjavac/free-programming-books-zh_CN
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        ReactTraining/react-router
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    ReactTraining/react-router
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        zeit/next.js
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    zeit/next.js
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        storybooks/storybook
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    storybooks/storybook
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        zeit/hyper
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    zeit/hyper
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        nylas/nylas-mail
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    nylas/nylas-mail
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        tastejs/todomvc
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    tastejs/todomvc
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        gatsbyjs/gatsby
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    gatsbyjs/gatsby
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        developit/preact
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    developit/preact
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        react-boilerplate/react-boilerplate
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    react-boilerplate/react-boilerplate
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        kriasoft/react-starter-kit
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    kriasoft/react-starter-kit
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        styled-components/styled-components
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    styled-components/styled-components
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        verekia/js-stack-from-scratch
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    verekia/js-stack-from-scratch
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        gothinkster/realworld
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    gothinkster/realworld
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        mobxjs/mobx
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    mobxjs/mobx
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        airbnb/enzyme
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    airbnb/enzyme
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        RubaXa/Sortable
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    RubaXa/Sortable
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        chenglou/react-motion
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    chenglou/react-motion
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        react-bootstrap/react-bootstrap
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    react-bootstrap/react-bootstrap
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        facebook/draft-js
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    facebook/draft-js
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        ruanyf/react-demos
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    ruanyf/react-demos
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        reduxjs/react-redux
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    reduxjs/react-redux
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        wagerfield/parallax
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    wagerfield/parallax
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        infernojs/inferno
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    infernojs/inferno
+          </span>
+           
 </li>,
-          <li>
-             
-            <span
-                        onClick={[Function]}
-            >
-                        fbsamples/f8app
-            </span>
-             
+        <li>
+           
+          <span
+                    onClick={[Function]}
+          >
+                    fbsamples/f8app
+          </span>
+           
 </li>,
-        ],
       ],
     },
     "ref": null,
     "rendered": Array [
-      undefined,
       Object {
         "instance": null,
         "key": "28457823",
@@ -4411,284 +4395,280 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          undefined,
-          Array [
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            freeCodeCamp/freeCodeCamp
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        freeCodeCamp/freeCodeCamp
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            facebook/react
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        facebook/react
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            facebook/react-native
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        facebook/react-native
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            facebook/create-react-app
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        facebook/create-react-app
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            mui-org/material-ui
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        mui-org/material-ui
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            justjavac/free-programming-books-zh_CN
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        justjavac/free-programming-books-zh_CN
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            ReactTraining/react-router
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        ReactTraining/react-router
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            zeit/next.js
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        zeit/next.js
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            storybooks/storybook
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        storybooks/storybook
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            zeit/hyper
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        zeit/hyper
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            nylas/nylas-mail
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        nylas/nylas-mail
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            tastejs/todomvc
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        tastejs/todomvc
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            gatsbyjs/gatsby
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        gatsbyjs/gatsby
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            developit/preact
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        developit/preact
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            react-boilerplate/react-boilerplate
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        react-boilerplate/react-boilerplate
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            kriasoft/react-starter-kit
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        kriasoft/react-starter-kit
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            styled-components/styled-components
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        styled-components/styled-components
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            verekia/js-stack-from-scratch
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        verekia/js-stack-from-scratch
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            gothinkster/realworld
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        gothinkster/realworld
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            mobxjs/mobx
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        mobxjs/mobx
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            airbnb/enzyme
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        airbnb/enzyme
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            RubaXa/Sortable
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        RubaXa/Sortable
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            chenglou/react-motion
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        chenglou/react-motion
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            react-bootstrap/react-bootstrap
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        react-bootstrap/react-bootstrap
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            facebook/draft-js
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        facebook/draft-js
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            ruanyf/react-demos
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        ruanyf/react-demos
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            reduxjs/react-redux
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        reduxjs/react-redux
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            wagerfield/parallax
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        wagerfield/parallax
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            infernojs/inferno
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        infernojs/inferno
+            </span>
+             
 </li>,
-            <li>
-               
-              <span
-                            onClick={[Function]}
-              >
-                            fbsamples/f8app
-              </span>
-               
+          <li>
+             
+            <span
+                        onClick={[Function]}
+            >
+                        fbsamples/f8app
+            </span>
+             
 </li>,
-          ],
         ],
       },
       "ref": null,
       "rendered": Array [
-        undefined,
         Object {
           "instance": null,
           "key": "28457823",

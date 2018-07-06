@@ -7,6 +7,7 @@ import Enzyme, { shallow, mount } from 'enzyme'
 import toJson from 'enzyme-to-json'
 import Adapter from 'enzyme-adapter-react-16';
 import github from './fixtures/github'
+import readme from './fixtures/readme'
 import axios from 'axios';
 
 Enzyme.configure({ adapter: new Adapter() });
@@ -40,6 +41,27 @@ describe('fetches a Github repository by search term', () => {
     // Check GET called correctly
     expect(axios.get).toBeCalledWith('https://api.github.com/search/repositories?q=react');
   
+   });
+
+   it('should fetch the readme', () => {
+  
+    // Setup the mock response(s) to be from mock data
+    const results = github
+    const readmeResponse = readme
+
+    const appWrapper = shallow(<App />)
+
+    // wrapper.instance().selectItem(results.items[0])
+    console.log('appWrapper.instance(): ', appWrapper.instance())
+    appWrapper.instance().selectItem(results.items[0])
+
+    // Mock the axios GET call
+    axios.get = jest.fn(() => Promise.resolve(readmeResponse));
+
+    // Check GET called correctly
+    expect(axios.get).toBeCalledWith('https://api.github.com/repos/freeCodeCamp/freeCodeCamp/readme');
+
+
    });
 
  });

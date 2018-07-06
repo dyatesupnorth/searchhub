@@ -2,7 +2,7 @@ import React from 'react'
 const Results = props => (
     
     <div>
-    {console.log(props)}
+    {/* {console.log(props)} */}
         {
             props.results.items.length === 0 ? ( <p> No Github Repos'</p>
             ) : (
