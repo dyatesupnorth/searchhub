@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {isEmpty} from '../helpers'
+import {isEmpty, decodeBase64} from '../helpers'
 
 
 test('should return true for an empty object', () => {

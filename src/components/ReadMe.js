@@ -1,5 +1,5 @@
 import React from 'react'
-import {isEmpty} from '../helpers'
+import {isEmpty, decodeBase64} from '../helpers'
 const ReadMe = props => ( 
     <div>
         {console.log('Readme: ', props)}
@@ -7,7 +7,7 @@ const ReadMe = props => (
             isEmpty(props.readme) ? ( <p>No Readme for selected repository</p>
             ) : (
                 <div>
-                    <p></p>
+                    <p>{decodeBase64(props.readme.content)}</p>
                 </div>
             )
         }

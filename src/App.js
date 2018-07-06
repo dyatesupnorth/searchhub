@@ -49,7 +49,9 @@ class App extends Component {
     axios.get(`https://api.github.com/repos/${repo.full_name}/readme`)
       .then(res => {
         console.log('res: ', res);
-        
+        this.setState({
+          readme: res.data
+        });
       })
       .catch(err => {
         console.log('err: ', err);
