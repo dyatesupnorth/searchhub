@@ -74,7 +74,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App">
+      <div className="bg-grey-darker m-6 p-6 rounded shadow-lg">
       {/* Add (e) for preventDefault  on form submit*/}
       {!isEmpty(this.state.error) && <p>{this.state.error.response.data.message}</p>}
       <form onSubmit={(e) => this.handleSubmit(e) }>  
