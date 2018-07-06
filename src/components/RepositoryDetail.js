@@ -1,7 +1,6 @@
 import React from 'react'
 import {isEmpty} from '../helpers'
-const RepositoryDetail = props => (
-    
+const RepositoryDetail = props => ( 
     <div>
        {
             isEmpty(props.item) ? ( <p>No Repository Selected</p>
@@ -12,6 +11,4 @@ const RepositoryDetail = props => (
     </div>
     
 )
-
-
 export default RepositoryDetail

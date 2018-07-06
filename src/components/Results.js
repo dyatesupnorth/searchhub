@@ -6,10 +6,8 @@ const Results = props => (
         {
             props.results.items.length === 0 ? ( <p> No Github Repos'</p>
             ) : (
-                props.results.items.map((item) => {
-                    {/* using () => function is equivalent to using .bind(this, item) */}
-                    return <li key = {item.id}> <span onClick={() => props.selectItem(item)}>{item.full_name}</span> </li>
-                })
+                props.results.items.map((item) => 
+                    <li key = {item.id}> <span onClick={() => props.selectItem(item)}>{item.full_name}</span> </li>)
             )
         }
     </div>
