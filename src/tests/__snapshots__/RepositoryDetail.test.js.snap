@@ -120,9 +120,9 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h2>
-        Repository Detail here
-</h2>,
+      "children": <p>
+        Repository Selected 
+</p>,
     },
     "ref": null,
     "rendered": Object {
@@ -130,11 +130,11 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "Repository Detail here",
+        "children": "Repository Selected ",
       },
       "ref": null,
-      "rendered": "Repository Detail here",
-      "type": "h2",
+      "rendered": "Repository Selected ",
+      "type": "p",
     },
     "type": "div",
   },
@@ -144,9 +144,9 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h2>
-          Repository Detail here
-</h2>,
+        "children": <p>
+          Repository Selected 
+</p>,
       },
       "ref": null,
       "rendered": Object {
@@ -154,11 +154,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Repository Detail here",
+          "children": "Repository Selected ",
         },
         "ref": null,
-        "rendered": "Repository Detail here",
-        "type": "h2",
+        "rendered": "Repository Selected ",
+        "type": "p",
       },
       "type": "div",
     },
@@ -192,9 +192,9 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h2>
-        Repository Detail here
-</h2>,
+      "children": <p>
+        No Repository Selected
+</p>,
     },
     "ref": null,
     "rendered": Object {
@@ -202,11 +202,11 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "Repository Detail here",
+        "children": "No Repository Selected",
       },
       "ref": null,
-      "rendered": "Repository Detail here",
-      "type": "h2",
+      "rendered": "No Repository Selected",
+      "type": "p",
     },
     "type": "div",
   },
@@ -216,9 +216,9 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h2>
-          Repository Detail here
-</h2>,
+        "children": <p>
+          No Repository Selected
+</p>,
       },
       "ref": null,
       "rendered": Object {
@@ -226,11 +226,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Repository Detail here",
+          "children": "No Repository Selected",
         },
         "ref": null,
-        "rendered": "Repository Detail here",
-        "type": "h2",
+        "rendered": "No Repository Selected",
+        "type": "p",
       },
       "type": "div",
     },

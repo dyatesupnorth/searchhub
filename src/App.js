@@ -10,7 +10,8 @@ class App extends Component {
       },
       loading: false,
       error: null,
-      searchTerm: ''
+      searchTerm: '',
+      selectedItem: {}
   }
   handleSubmit = (e) =>{
     e.preventDefault();
@@ -38,6 +39,10 @@ class App extends Component {
        
       });
   }
+  selectItem = (selectedItem) => {
+    console.log('select item : ', selectedItem);
+    this.setState({selectedItem})
+  }
   onSearchChange = (e) => {
     const searchTerm = e.target.value;
     this.setState(() => ({searchTerm}));
@@ -50,8 +55,8 @@ class App extends Component {
         <input type="text" placeholder="Search a repo..." onChange={this.onSearchChange} value={this.state.searchTerm}/>
         <button>Search</button>
       </form>
-      <Results results={this.state.result}/>
-      <RepositoryDetail item={{ }}/>
+      <Results results={this.state.result} selectItem={this.selectItem}/>
+      <RepositoryDetail item={this.state.selectedItem}  />
       </div>
     );
   }

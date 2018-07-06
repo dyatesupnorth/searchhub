@@ -37,6 +37,7 @@ ShallowWrapper {
                               "items": Array [],
                             }
           }
+          selectItem={[Function]}
 />,
         <RepositoryDetail
           item={Object {}}
@@ -102,6 +103,7 @@ ShallowWrapper {
           "results": Object {
             "items": Array [],
           },
+          "selectItem": [Function],
         },
         "ref": null,
         "rendered": null,
@@ -147,6 +149,7 @@ ShallowWrapper {
                                     "items": Array [],
                                   }
             }
+            selectItem={[Function]}
 />,
           <RepositoryDetail
             item={Object {}}
@@ -212,6 +215,7 @@ ShallowWrapper {
             "results": Object {
               "items": Array [],
             },
+            "selectItem": [Function],
           },
           "ref": null,
           "rendered": null,
