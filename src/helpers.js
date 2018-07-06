@@ -1,4 +1,5 @@
-import {decode} from 'base-64'
+import { decode } from 'base-64'
+import { markdown } from 'markdown';
 
 export const isEmpty = (obj) => { 
     for (var x in obj) { return false; }
@@ -10,6 +11,5 @@ export const isEmpty = (obj) => {
  }
 
  export const parseMarkdown = (string) => {
-     return string
-
+    return markdown.toHTML(string)
 }
