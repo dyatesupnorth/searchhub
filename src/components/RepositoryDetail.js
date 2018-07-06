@@ -1,14 +1,11 @@
-import React, { Component } from 'react'
+import React from 'react'
+const RepositoryDetail = props => (
+    
+    <div>
+       <h2>Repository Detail here</h2>
+    </div>
+    
+)
 
-class RepositoryDetail extends Component {
-  render() {
-    return (
-        <div>
-            <h2>Github Repository Details</h2>
-        </div>
-      
-    )
-  }
-}
 
 export default RepositoryDetail
