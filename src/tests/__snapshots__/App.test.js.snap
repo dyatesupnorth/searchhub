@@ -18,6 +18,11 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
+        <h1
+          className="text-center uppercase text-grey my-4"
+>
+          Search...hub
+</h1>,
         false,
         <form
           className="w-full mx-auto max-w-md"
@@ -52,6 +57,18 @@ ShallowWrapper {
     },
     "ref": null,
     "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Search...hub",
+          "className": "text-center uppercase text-grey my-4",
+        },
+        "ref": null,
+        "rendered": "Search...hub",
+        "type": "h1",
+      },
       false,
       Object {
         "instance": null,
@@ -174,6 +191,11 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
+          <h1
+            className="text-center uppercase text-grey my-4"
+>
+            Search...hub
+</h1>,
           false,
           <form
             className="w-full mx-auto max-w-md"
@@ -208,6 +230,18 @@ ShallowWrapper {
       },
       "ref": null,
       "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Search...hub",
+            "className": "text-center uppercase text-grey my-4",
+          },
+          "ref": null,
+          "rendered": "Search...hub",
+          "type": "h1",
+        },
         false,
         Object {
           "instance": null,

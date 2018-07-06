@@ -3140,7 +3140,7 @@ ShallowWrapper {
         className="overflow-hidden bg-white  max-w-xs w-full shadow-lg  leading-normal"
 >
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3164,7 +3164,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3188,7 +3188,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3212,7 +3212,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3236,7 +3236,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3260,7 +3260,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3284,7 +3284,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3308,7 +3308,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3332,7 +3332,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3356,7 +3356,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3380,7 +3380,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3404,7 +3404,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3428,7 +3428,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3452,7 +3452,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3476,7 +3476,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3500,7 +3500,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3524,7 +3524,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3548,7 +3548,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3572,7 +3572,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3596,7 +3596,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3620,7 +3620,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3644,7 +3644,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3668,7 +3668,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3692,7 +3692,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3716,7 +3716,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3740,7 +3740,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3762,7 +3762,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3786,7 +3786,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3810,7 +3810,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3834,7 +3834,7 @@ ShallowWrapper {
                 </p>
         </span>
         <span
-                className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                 onClick={[Function]}
         >
                 <p
@@ -3868,7 +3868,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -3892,7 +3892,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -3916,7 +3916,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -3940,7 +3940,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -3964,7 +3964,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -3988,7 +3988,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4012,7 +4012,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4036,7 +4036,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4060,7 +4060,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4084,7 +4084,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4108,7 +4108,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4132,7 +4132,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4156,7 +4156,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4180,7 +4180,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4204,7 +4204,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4228,7 +4228,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4252,7 +4252,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4276,7 +4276,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4300,7 +4300,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4324,7 +4324,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4348,7 +4348,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4372,7 +4372,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4396,7 +4396,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4420,7 +4420,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4444,7 +4444,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4468,7 +4468,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4490,7 +4490,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4514,7 +4514,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4538,7 +4538,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4562,7 +4562,7 @@ ShallowWrapper {
             </p>
 </span>,
           <span
-            className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+            className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
             onClick={[Function]}
 >
             <p
@@ -4616,7 +4616,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -4720,7 +4720,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -4824,7 +4824,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -4928,7 +4928,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -5032,7 +5032,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -5136,7 +5136,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -5240,7 +5240,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -5344,7 +5344,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -5448,7 +5448,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -5552,7 +5552,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -5656,7 +5656,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -5760,7 +5760,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -5864,7 +5864,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -5968,7 +5968,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -6072,7 +6072,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -6176,7 +6176,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -6280,7 +6280,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -6384,7 +6384,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -6488,7 +6488,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -6592,7 +6592,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -6696,7 +6696,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -6800,7 +6800,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -6904,7 +6904,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -7008,7 +7008,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -7112,7 +7112,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -7214,7 +7214,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -7316,7 +7316,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -7420,7 +7420,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -7524,7 +7524,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -7628,7 +7628,7 @@ ShallowWrapper {
                 </strong>
 </p>,
             ],
-            "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+            "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
             "onClick": [Function],
           },
           "ref": null,
@@ -7721,7 +7721,7 @@ ShallowWrapper {
           className="overflow-hidden bg-white  max-w-xs w-full shadow-lg  leading-normal"
 >
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -7745,7 +7745,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -7769,7 +7769,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -7793,7 +7793,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -7817,7 +7817,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -7841,7 +7841,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -7865,7 +7865,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -7889,7 +7889,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -7913,7 +7913,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -7937,7 +7937,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -7961,7 +7961,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -7985,7 +7985,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8009,7 +8009,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8033,7 +8033,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8057,7 +8057,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8081,7 +8081,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8105,7 +8105,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8129,7 +8129,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8153,7 +8153,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8177,7 +8177,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8201,7 +8201,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8225,7 +8225,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8249,7 +8249,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8273,7 +8273,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8297,7 +8297,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8321,7 +8321,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8343,7 +8343,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8367,7 +8367,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8391,7 +8391,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8415,7 +8415,7 @@ ShallowWrapper {
                     </p>
           </span>
           <span
-                    className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+                    className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
                     onClick={[Function]}
           >
                     <p
@@ -8449,7 +8449,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8473,7 +8473,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8497,7 +8497,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8521,7 +8521,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8545,7 +8545,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8569,7 +8569,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8593,7 +8593,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8617,7 +8617,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8641,7 +8641,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8665,7 +8665,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8689,7 +8689,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8713,7 +8713,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8737,7 +8737,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8761,7 +8761,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8785,7 +8785,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8809,7 +8809,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8833,7 +8833,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8857,7 +8857,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8881,7 +8881,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8905,7 +8905,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8929,7 +8929,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8953,7 +8953,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -8977,7 +8977,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -9001,7 +9001,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -9025,7 +9025,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -9049,7 +9049,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -9071,7 +9071,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -9095,7 +9095,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -9119,7 +9119,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -9143,7 +9143,7 @@ ShallowWrapper {
               </p>
 </span>,
             <span
-              className="bg-white block group cursor-pointer hover:bg-blue p-4 border-b"
+              className="bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b"
               onClick={[Function]}
 >
               <p
@@ -9197,7 +9197,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -9301,7 +9301,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -9405,7 +9405,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -9509,7 +9509,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -9613,7 +9613,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -9717,7 +9717,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -9821,7 +9821,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -9925,7 +9925,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -10029,7 +10029,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -10133,7 +10133,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -10237,7 +10237,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -10341,7 +10341,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -10445,7 +10445,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -10549,7 +10549,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -10653,7 +10653,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -10757,7 +10757,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -10861,7 +10861,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -10965,7 +10965,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -11069,7 +11069,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -11173,7 +11173,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -11277,7 +11277,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -11381,7 +11381,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -11485,7 +11485,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -11589,7 +11589,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -11693,7 +11693,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -11795,7 +11795,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -11897,7 +11897,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -12001,7 +12001,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -12105,7 +12105,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,
@@ -12209,7 +12209,7 @@ ShallowWrapper {
                   </strong>
 </p>,
               ],
-              "className": "bg-white block group cursor-pointer hover:bg-blue p-4 border-b",
+              "className": "bg-white block group cursor-pointer group-hover:text-white hover:text-white hover:bg-blue p-4 border-b",
               "onClick": [Function],
             },
             "ref": null,

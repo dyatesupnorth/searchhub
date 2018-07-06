@@ -77,6 +77,7 @@ class App extends Component {
   render() {
     return (
       <div className="container mx-auto">
+        <h1 className="text-center uppercase text-grey my-4">Search...hub</h1>
         {!isEmpty(this.state.error) && <p>{this.state.error.response.data.message}</p>}
         <form onSubmit={(e) => this.handleSubmit(e) } className="w-full mx-auto max-w-md">
           <div className="flex justify-center items-center border-b border-b-2 border-teal py-2">
